@@ -11,6 +11,8 @@ enum ScreenName {
     case replaceRegister
     case replaceLogin
     case relaunchHome
+    case relaunchLogin
+    case moreMenu
 }
 
 extension UIViewController {
@@ -24,6 +26,13 @@ extension UIViewController {
         case .relaunchHome:
             let nvc = UINavigationController(rootViewController: HomeViewController.build())
             UIWindow.key?.set(rootViewController: nvc)
+        case .relaunchLogin:
+            let nvc = UINavigationController(rootViewController: LoginViewController.build())
+            UIWindow.key?.set(rootViewController: nvc)
+        case .moreMenu:
+            let nvc = UINavigationController(rootViewController: MoreViewController.build())
+            nvc.modalPresentationStyle = .custom
+            present(nvc, animated: true)
         }
     }
     

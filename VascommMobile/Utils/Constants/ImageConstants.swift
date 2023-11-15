@@ -26,6 +26,7 @@ extension UIImage {
     static let icTwitter = UIImage(named: "ic_twitter")
     static let icUserPin = UIImage(named: "ic_user_pin")
     static let icMap = UIImage(named: "ic_map")
+    static let icChevronRight = UIImage(named: "ic_chevron_right")
     
     static let bgWelcome = UIImage(named: "bg_welcome")
     static let bgHealth = UIImage(named: "bg_health")

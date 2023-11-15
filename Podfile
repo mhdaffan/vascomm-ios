@@ -9,6 +9,7 @@ target 'VascommMobile' do
   pod 'netfox', '1.21.0'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'Kingfisher', '5.2'
 
   target 'VascommMobileTests' do
     inherit! :search_paths

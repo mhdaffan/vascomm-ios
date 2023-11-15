@@ -68,7 +68,7 @@ final class HomeViewController: ViewController {
     }
     
     @objc private func tapMoreMenuButton() {
-        
+        moveTo(.moreMenu)
     }
     
 }
