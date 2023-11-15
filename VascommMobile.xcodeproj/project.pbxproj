@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15779B1F1D96EEAB4C7855FB /* Pods_VascommMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04C19B398A9B1296F22418B /* Pods_VascommMobileTests.framework */; };
+		355E1F490033C40AC63197B5 /* Pods_VascommMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97CD41D91D538BF605B4E7CA /* Pods_VascommMobile.framework */; };
 		361E71A32B04855100F78E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71A22B04855100F78E56 /* AppDelegate.swift */; };
 		361E71A52B04855100F78E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71A42B04855100F78E56 /* SceneDelegate.swift */; };
 		361E71A72B04855100F78E56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71A62B04855100F78E56 /* ViewController.swift */; };
@@ -18,6 +20,7 @@
 		361E71C62B04855200F78E56 /* VascommMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71C52B04855200F78E56 /* VascommMobileUITestsLaunchTests.swift */; };
 		361E71E62B04879F00F78E56 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71E52B04879F00F78E56 /* Router.swift */; };
 		361E71EA2B0487EA00F78E56 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71E92B0487EA00F78E56 /* BaseViewModel.swift */; };
+		BB04F93EC2F04AC93A993581 /* Pods_VascommMobile_VascommMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0A582ADD77BC1B5B905FBB /* Pods_VascommMobile_VascommMobileUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		218F8E0C3A1F51DE0DE6CF36 /* Pods-VascommMobile-VascommMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile-VascommMobileUITests.release.xcconfig"; path = "Target Support Files/Pods-VascommMobile-VascommMobileUITests/Pods-VascommMobile-VascommMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		247380E688ED80F863506F58 /* Pods-VascommMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-VascommMobileTests/Pods-VascommMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		361E719F2B04855100F78E56 /* VascommMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VascommMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		361E71A22B04855100F78E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		361E71A42B04855100F78E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +58,13 @@
 		361E71C52B04855200F78E56 /* VascommMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VascommMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		361E71E52B04879F00F78E56 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		361E71E92B0487EA00F78E56 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		6E9EE3A49908F96F76B2D4F7 /* Pods-VascommMobile-VascommMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile-VascommMobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-VascommMobile-VascommMobileUITests/Pods-VascommMobile-VascommMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97CD41D91D538BF605B4E7CA /* Pods_VascommMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VascommMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D1E1BFDE8A8586F8C60522 /* Pods-VascommMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile.release.xcconfig"; path = "Target Support Files/Pods-VascommMobile/Pods-VascommMobile.release.xcconfig"; sourceTree = "<group>"; };
+		AA6D65759F464D57041550CA /* Pods-VascommMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobileTests.release.xcconfig"; path = "Target Support Files/Pods-VascommMobileTests/Pods-VascommMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		C04C19B398A9B1296F22418B /* Pods_VascommMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VascommMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CFCFDCEAEEEE0C879C4847 /* Pods-VascommMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile.debug.xcconfig"; path = "Target Support Files/Pods-VascommMobile/Pods-VascommMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		FD0A582ADD77BC1B5B905FBB /* Pods_VascommMobile_VascommMobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VascommMobile_VascommMobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				355E1F490033C40AC63197B5 /* Pods_VascommMobile.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15779B1F1D96EEAB4C7855FB /* Pods_VascommMobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB04F93EC2F04AC93A993581 /* Pods_VascommMobile_VascommMobileUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +102,8 @@
 				361E71B82B04855200F78E56 /* VascommMobileTests */,
 				361E71C22B04855200F78E56 /* VascommMobileUITests */,
 				361E71A02B04855100F78E56 /* Products */,
+				4044AF5EE020CB7BD504F4E8 /* Pods */,
+				ED020989A90B549435E51718 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -293,6 +310,30 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		4044AF5EE020CB7BD504F4E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3CFCFDCEAEEEE0C879C4847 /* Pods-VascommMobile.debug.xcconfig */,
+				A3D1E1BFDE8A8586F8C60522 /* Pods-VascommMobile.release.xcconfig */,
+				6E9EE3A49908F96F76B2D4F7 /* Pods-VascommMobile-VascommMobileUITests.debug.xcconfig */,
+				218F8E0C3A1F51DE0DE6CF36 /* Pods-VascommMobile-VascommMobileUITests.release.xcconfig */,
+				247380E688ED80F863506F58 /* Pods-VascommMobileTests.debug.xcconfig */,
+				AA6D65759F464D57041550CA /* Pods-VascommMobileTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED020989A90B549435E51718 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97CD41D91D538BF605B4E7CA /* Pods_VascommMobile.framework */,
+				FD0A582ADD77BC1B5B905FBB /* Pods_VascommMobile_VascommMobileUITests.framework */,
+				C04C19B398A9B1296F22418B /* Pods_VascommMobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,9 +341,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 361E71C92B04855200F78E56 /* Build configuration list for PBXNativeTarget "VascommMobile" */;
 			buildPhases = (
+				7095886A4B1D5F6F586CDE65 /* [CP] Check Pods Manifest.lock */,
 				361E719B2B04855100F78E56 /* Sources */,
 				361E719C2B04855100F78E56 /* Frameworks */,
 				361E719D2B04855100F78E56 /* Resources */,
+				903A5E159129AC7BB462E607 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,6 +360,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 361E71CC2B04855200F78E56 /* Build configuration list for PBXNativeTarget "VascommMobileTests" */;
 			buildPhases = (
+				68987243EB868149BB2A1605 /* [CP] Check Pods Manifest.lock */,
 				361E71B12B04855200F78E56 /* Sources */,
 				361E71B22B04855200F78E56 /* Frameworks */,
 				361E71B32B04855200F78E56 /* Resources */,
@@ -335,9 +379,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 361E71CF2B04855200F78E56 /* Build configuration list for PBXNativeTarget "VascommMobileUITests" */;
 			buildPhases = (
+				25ED7A47247B6A61E33E38FF /* [CP] Check Pods Manifest.lock */,
 				361E71BB2B04855200F78E56 /* Sources */,
 				361E71BC2B04855200F78E56 /* Frameworks */,
 				361E71BD2B04855200F78E56 /* Resources */,
+				3FD9D4616CB21F457C709B3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -418,6 +464,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25ED7A47247B6A61E33E38FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VascommMobile-VascommMobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FD9D4616CB21F457C709B3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VascommMobile-VascommMobileUITests/Pods-VascommMobile-VascommMobileUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VascommMobile-VascommMobileUITests/Pods-VascommMobile-VascommMobileUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VascommMobile-VascommMobileUITests/Pods-VascommMobile-VascommMobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68987243EB868149BB2A1605 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VascommMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7095886A4B1D5F6F586CDE65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VascommMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903A5E159129AC7BB462E607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VascommMobile/Pods-VascommMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VascommMobile/Pods-VascommMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VascommMobile/Pods-VascommMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		361E719B2B04855100F78E56 /* Sources */ = {
@@ -600,6 +749,7 @@
 		};
 		361E71CA2B04855200F78E56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CFCFDCEAEEEE0C879C4847 /* Pods-VascommMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -630,6 +780,7 @@
 		};
 		361E71CB2B04855200F78E56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D1E1BFDE8A8586F8C60522 /* Pods-VascommMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -660,6 +811,7 @@
 		};
 		361E71CD2B04855200F78E56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247380E688ED80F863506F58 /* Pods-VascommMobileTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -679,6 +831,7 @@
 		};
 		361E71CE2B04855200F78E56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6D65759F464D57041550CA /* Pods-VascommMobileTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -698,6 +851,7 @@
 		};
 		361E71D02B04855200F78E56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9EE3A49908F96F76B2D4F7 /* Pods-VascommMobile-VascommMobileUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -715,6 +869,7 @@
 		};
 		361E71D12B04855200F78E56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 218F8E0C3A1F51DE0DE6CF36 /* Pods-VascommMobile-VascommMobileUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
