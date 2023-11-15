@@ -71,7 +71,7 @@ final class LoginViewController: ViewController {
     
     private func observeClosures() {
         loginView.loginHandler = { [weak self] email, password in
-            self?.moveTo(.relaunchHome)
+            self?.viewModel.login(email: email, password: password)
         }
         footerView.actionHandler = { [weak self] in
             self?.moveTo(.replaceRegister)
@@ -79,7 +79,28 @@ final class LoginViewController: ViewController {
     }
     
     private func observeViewModel() {
-        
+        disposeBag.insert(
+            viewModel.errorSubject.subscribeOnMainThread(
+                onNext: { [weak self] error in
+                    self?.showErrorAlert(message: error.generatedMessage())
+                }),
+            viewModel.alertSubject.subscribeOnMainThread(
+                onNext: { [weak self] message in
+                    self?.showErrorAlert(message: message)
+                }),
+            viewModel.loginSuccessSubject.subscribeOnMainThread(
+                onNext: { [weak self] token in
+                    self?.moveTo(.relaunchHome)
+                }),
+            viewModel.loadingSubject.subscribeOnMainThread(
+                onNext: { [weak self] show in
+                    if show {
+                        self?.showLoadingIndicator()
+                    } else {
+                        self?.hideLoadingIndicator()
+                    }
+                })
+        )
     }
     
 }

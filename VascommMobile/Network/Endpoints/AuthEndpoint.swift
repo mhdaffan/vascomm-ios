@@ -7,6 +7,17 @@
 
 struct AuthEndpoint {
     
+    static func login(email: String, password: String) -> DataEndpoint<Token> {
+        return DataEndpoint(
+            path: "api/login",
+            method: .post,
+            bodyParamaters: [
+                "email": email,
+                "password": password
+            ]
+        )
+    }
+    
     static func register(form: RegisterRequestModel) -> DataEndpoint<Token> {
         var body: [String: Any] = [
             "email": form.email,
