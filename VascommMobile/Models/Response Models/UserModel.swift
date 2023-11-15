@@ -22,7 +22,3 @@ struct UserModel: Codable {
     }
     
 }
-
-struct Token: Codable {
-    let token: String
-}

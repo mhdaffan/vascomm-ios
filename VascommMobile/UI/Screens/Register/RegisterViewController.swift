@@ -71,7 +71,7 @@ final class RegisterViewController: ViewController {
     
     private func observeClosures() {
         registerView.registerHandler = { [weak self] register in
-            
+            self?.viewModel.validateRegisterForm(form: register)
         }
         footerView.actionHandler = { [weak self] in
             self?.moveTo(.replaceLogin)
@@ -79,7 +79,31 @@ final class RegisterViewController: ViewController {
     }
     
     private func observeViewModel() {
-        
+        disposeBag.insert(
+            viewModel.errorSubject.subscribeOnMainThread(
+                onNext: { [weak self] error in
+                    self?.showErrorAlert(message: error.generatedMessage())
+                }),
+            viewModel.alertSubject.subscribeOnMainThread(
+                onNext: { [weak self] message in
+                    self?.showErrorAlert(message: message)
+                }),
+            viewModel.registerSuccessSubject.subscribeOnMainThread(
+                onNext: { [weak self] token in
+                    self?.registerView.resetForm()
+                    self?.showErrorAlert(message: "Registrasi berhasil, silahkan login", handler: { [weak self] in
+                        self?.moveTo(.replaceLogin)
+                    })
+                }),
+            viewModel.loadingSubject.subscribeOnMainThread(
+                onNext: { [weak self] show in
+                    if show {
+                        self?.showLoadingIndicator()
+                    } else {
+                        self?.hideLoadingIndicator()
+                    }
+                })
+        )
     }
     
 }

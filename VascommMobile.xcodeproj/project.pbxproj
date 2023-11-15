@@ -64,6 +64,22 @@
 		361E72562B051F1D00F78E56 /* UserDefaultsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72552B051F1D00F78E56 /* UserDefaultsConfig.swift */; };
 		361E72592B051F6000F78E56 /* MoreContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72582B051F6000F78E56 /* MoreContentView.swift */; };
 		361E725B2B05259500F78E56 /* ExtensionUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E725A2B05259500F78E56 /* ExtensionUIImageView.swift */; };
+		361E725D2B0533A100F78E56 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E725C2B0533A100F78E56 /* Endpoint.swift */; };
+		361E725F2B05340C00F78E56 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E725E2B05340C00F78E56 /* NetworkConfig.swift */; };
+		361E72612B05342500F78E56 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72602B05342500F78E56 /* NetworkService.swift */; };
+		361E72632B05344000F78E56 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72622B05344000F78E56 /* NetworkSession.swift */; };
+		361E72652B05346000F78E56 /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72642B05346000F78E56 /* DataTransferService.swift */; };
+		361E72672B0534DC00F78E56 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72662B0534DC00F78E56 /* ErrorModel.swift */; };
+		361E726A2B05351800F78E56 /* AuthEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72692B05351800F78E56 /* AuthEndpoint.swift */; };
+		361E726C2B05353100F78E56 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E726B2B05353100F78E56 /* Token.swift */; };
+		361E726E2B05355000F78E56 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E726D2B05355000F78E56 /* AuthRepository.swift */; };
+		361E72702B05356100F78E56 /* AuthUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E726F2B05356100F78E56 /* AuthUseCase.swift */; };
+		361E72722B05357600F78E56 /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72712B05357600F78E56 /* DI.swift */; };
+		361E72742B05359700F78E56 /* NetworkInjectionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72732B05359700F78E56 /* NetworkInjectionKey.swift */; };
+		361E72762B0535AC00F78E56 /* RepositoryInjectionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72752B0535AC00F78E56 /* RepositoryInjectionKey.swift */; };
+		361E72782B0535BD00F78E56 /* UseCaseInjectionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72772B0535BD00F78E56 /* UseCaseInjectionKey.swift */; };
+		361E727A2B05362E00F78E56 /* ExtensionObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72792B05362E00F78E56 /* ExtensionObservable.swift */; };
+		361E727C2B0536FD00F78E56 /* ExtensionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E727B2B0536FD00F78E56 /* ExtensionError.swift */; };
 		BB04F93EC2F04AC93A993581 /* Pods_VascommMobile_VascommMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0A582ADD77BC1B5B905FBB /* Pods_VascommMobile_VascommMobileUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +162,22 @@
 		361E72552B051F1D00F78E56 /* UserDefaultsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsConfig.swift; sourceTree = "<group>"; };
 		361E72582B051F6000F78E56 /* MoreContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreContentView.swift; sourceTree = "<group>"; };
 		361E725A2B05259500F78E56 /* ExtensionUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIImageView.swift; sourceTree = "<group>"; };
+		361E725C2B0533A100F78E56 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		361E725E2B05340C00F78E56 /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		361E72602B05342500F78E56 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		361E72622B05344000F78E56 /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		361E72642B05346000F78E56 /* DataTransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferService.swift; sourceTree = "<group>"; };
+		361E72662B0534DC00F78E56 /* ErrorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+		361E72692B05351800F78E56 /* AuthEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthEndpoint.swift; sourceTree = "<group>"; };
+		361E726B2B05353100F78E56 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		361E726D2B05355000F78E56 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		361E726F2B05356100F78E56 /* AuthUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUseCase.swift; sourceTree = "<group>"; };
+		361E72712B05357600F78E56 /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
+		361E72732B05359700F78E56 /* NetworkInjectionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInjectionKey.swift; sourceTree = "<group>"; };
+		361E72752B0535AC00F78E56 /* RepositoryInjectionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryInjectionKey.swift; sourceTree = "<group>"; };
+		361E72772B0535BD00F78E56 /* UseCaseInjectionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseInjectionKey.swift; sourceTree = "<group>"; };
+		361E72792B05362E00F78E56 /* ExtensionObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionObservable.swift; sourceTree = "<group>"; };
+		361E727B2B0536FD00F78E56 /* ExtensionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionError.swift; sourceTree = "<group>"; };
 		6E9EE3A49908F96F76B2D4F7 /* Pods-VascommMobile-VascommMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile-VascommMobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-VascommMobile-VascommMobileUITests/Pods-VascommMobile-VascommMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		97CD41D91D538BF605B4E7CA /* Pods_VascommMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VascommMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D1E1BFDE8A8586F8C60522 /* Pods-VascommMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile.release.xcconfig"; path = "Target Support Files/Pods-VascommMobile/Pods-VascommMobile.release.xcconfig"; sourceTree = "<group>"; };
@@ -265,6 +297,7 @@
 		361E71D42B0485F200F78E56 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				361E726F2B05356100F78E56 /* AuthUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -272,6 +305,7 @@
 		361E71D52B0485FA00F78E56 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				361E726D2B05355000F78E56 /* AuthRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -279,6 +313,12 @@
 		361E71D62B04860700F78E56 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				361E72682B05351000F78E56 /* Endpoints */,
+				361E725C2B0533A100F78E56 /* Endpoint.swift */,
+				361E725E2B05340C00F78E56 /* NetworkConfig.swift */,
+				361E72602B05342500F78E56 /* NetworkService.swift */,
+				361E72622B05344000F78E56 /* NetworkSession.swift */,
+				361E72642B05346000F78E56 /* DataTransferService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -286,6 +326,10 @@
 		361E71D72B04861000F78E56 /* DI */ = {
 			isa = PBXGroup;
 			children = (
+				361E72712B05357600F78E56 /* DI.swift */,
+				361E72732B05359700F78E56 /* NetworkInjectionKey.swift */,
+				361E72752B0535AC00F78E56 /* RepositoryInjectionKey.swift */,
+				361E72772B0535BD00F78E56 /* UseCaseInjectionKey.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -307,6 +351,8 @@
 				361E71DA2B04863700F78E56 /* Response Models */,
 				361E72442B04D47200F78E56 /* HomeProductListModel.swift */,
 				361E724C2B04DC2300F78E56 /* HomeServiceModel.swift */,
+				361E72662B0534DC00F78E56 /* ErrorModel.swift */,
+				361E726B2B05353100F78E56 /* Token.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -367,6 +413,8 @@
 				361E72172B04A62C00F78E56 /* ExtensionUIImage.swift */,
 				361E72242B04A9B300F78E56 /* ExtensionUINavigationController.swift */,
 				361E725A2B05259500F78E56 /* ExtensionUIImageView.swift */,
+				361E72792B05362E00F78E56 /* ExtensionObservable.swift */,
+				361E727B2B0536FD00F78E56 /* ExtensionError.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -528,6 +576,14 @@
 				361E72582B051F6000F78E56 /* MoreContentView.swift */,
 			);
 			path = Subviews;
+			sourceTree = "<group>";
+		};
+		361E72682B05351000F78E56 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				361E72692B05351800F78E56 /* AuthEndpoint.swift */,
+			);
+			path = Endpoints;
 			sourceTree = "<group>";
 		};
 		4044AF5EE020CB7BD504F4E8 /* Pods */ = {
@@ -801,14 +857,19 @@
 				361E72312B04AD7300F78E56 /* TrackCardView.swift in Sources */,
 				361E72432B04CF1300F78E56 /* HomeProductListCell.swift in Sources */,
 				361E723D2B04C74500F78E56 /* HomeCardCell.swift in Sources */,
+				361E725F2B05340C00F78E56 /* NetworkConfig.swift in Sources */,
 				361E72012B0494DD00F78E56 /* ExtensionUIView.swift in Sources */,
 				361E72032B0494EE00F78E56 /* ExtensionUIStackView.swift in Sources */,
+				361E72782B0535BD00F78E56 /* UseCaseInjectionKey.swift in Sources */,
 				361E71FD2B04930800F78E56 /* ImageConstants.swift in Sources */,
+				361E726A2B05351800F78E56 /* AuthEndpoint.swift in Sources */,
 				361E72542B051ED100F78E56 /* UserModel.swift in Sources */,
 				361E72072B04952400F78E56 /* ColorConstants.swift in Sources */,
+				361E726C2B05353100F78E56 /* Token.swift in Sources */,
 				361E72052B04950100F78E56 /* ExtensionUIButton.swift in Sources */,
 				361E71E62B04879F00F78E56 /* Router.swift in Sources */,
 				361E72232B04A8A800F78E56 /* RegisterRequestModel.swift in Sources */,
+				361E72612B05342500F78E56 /* NetworkService.swift in Sources */,
 				361E720B2B0495D100F78E56 /* LoginViewModel.swift in Sources */,
 				361E71FF2B04935B00F78E56 /* FontConstants.swift in Sources */,
 				361E72522B051E8000F78E56 /* MoreViewModel.swift in Sources */,
@@ -816,6 +877,8 @@
 				361E722F2B04AD6300F78E56 /* SpecialServiceCardView.swift in Sources */,
 				361E720F2B0496CB00F78E56 /* WelcomeFooterView.swift in Sources */,
 				361E725B2B05259500F78E56 /* ExtensionUIImageView.swift in Sources */,
+				361E725D2B0533A100F78E56 /* Endpoint.swift in Sources */,
+				361E72762B0535AC00F78E56 /* RepositoryInjectionKey.swift in Sources */,
 				361E720D2B04969E00F78E56 /* WelcomeHeaderView.swift in Sources */,
 				361E72592B051F6000F78E56 /* MoreContentView.swift in Sources */,
 				361E72122B0496E800F78E56 /* LoginView.swift in Sources */,
@@ -823,7 +886,10 @@
 				361E72202B04A85600F78E56 /* RegisterView.swift in Sources */,
 				361E721B2B04A6FD00F78E56 /* RegisterViewController.swift in Sources */,
 				361E723F2B04C92800F78E56 /* HomeSearchCell.swift in Sources */,
+				361E72702B05356100F78E56 /* AuthUseCase.swift in Sources */,
+				361E727A2B05362E00F78E56 /* ExtensionObservable.swift in Sources */,
 				361E722D2B04AD5500F78E56 /* HealthSolutionCardView.swift in Sources */,
+				361E72672B0534DC00F78E56 /* ErrorModel.swift in Sources */,
 				361E72332B04AE6A00F78E56 /* UIWindowTransition.swift in Sources */,
 				361E71A72B04855100F78E56 /* ViewController.swift in Sources */,
 				361E72492B04D4CD00F78E56 /* HomeServiceItemCell.swift in Sources */,
@@ -832,14 +898,20 @@
 				361E72502B051E7600F78E56 /* MoreViewController.swift in Sources */,
 				361E71A32B04855100F78E56 /* AppDelegate.swift in Sources */,
 				361E72182B04A62C00F78E56 /* ExtensionUIImage.swift in Sources */,
+				361E72742B05359700F78E56 /* NetworkInjectionKey.swift in Sources */,
 				361E71A52B04855100F78E56 /* SceneDelegate.swift in Sources */,
 				361E72452B04D47200F78E56 /* HomeProductListModel.swift in Sources */,
 				361E721D2B04A70500F78E56 /* RegisterViewModel.swift in Sources */,
+				361E726E2B05355000F78E56 /* AuthRepository.swift in Sources */,
 				361E722A2B04AD3400F78E56 /* HomeViewModel.swift in Sources */,
+				361E72652B05346000F78E56 /* DataTransferService.swift in Sources */,
+				361E72722B05357600F78E56 /* DI.swift in Sources */,
 				361E71FB2B0492FA00F78E56 /* Then.swift in Sources */,
 				361E72142B04971A00F78E56 /* TextField.swift in Sources */,
 				361E72092B0495CA00F78E56 /* LoginViewController.swift in Sources */,
+				361E72632B05344000F78E56 /* NetworkSession.swift in Sources */,
 				361E724B2B04D9CF00F78E56 /* HomeServiceHeaderCell.swift in Sources */,
+				361E727C2B0536FD00F78E56 /* ExtensionError.swift in Sources */,
 				361E71EA2B0487EA00F78E56 /* BaseViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,14 +6,48 @@
 //
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
 
+    let disposeBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         enableTapGestureOnView()
         addKeyboardObserver()
+    }
+    
+    func showErrorAlert(message: String, handler: (() -> Void)? = nil) {
+        let alertController = UIAlertController(title: "", message: message, preferredStyle: .alert)
+        alertController.addAction(.init(title: "OK", style: .cancel, handler: { _ in
+            handler?()
+        }))
+        self.present(alertController, animated: true, completion: nil)
+    }
+    
+    func showLoadingIndicator() {
+        guard view.viewWithTag(100001) == nil else {
+            return
+        }
+        
+        let indicator = UIActivityIndicatorView(style: .large).then {
+            $0.tag = 100001
+            $0.startAnimating()
+            $0.color = .black
+        }
+        self.view.addSubview(indicator)
+        indicator.snp.makeConstraints {
+            $0.centerX.centerY.equalToSuperview()
+        }
+    }
+    
+    func hideLoadingIndicator() {
+        if let indicator = view.viewWithTag(100001) as? UIActivityIndicatorView {
+            indicator.stopAnimating()
+            indicator.removeFromSuperview()
+        }
     }
     
     func enableTapGestureOnView(cancelsTouchesInView: Bool = false) {
@@ -30,6 +64,7 @@ class ViewController: UIViewController {
     deinit {
         NotificationCenter.default.removeObserver(self)
     }
+    
 }
 
 // MARK: - Navigation Items
