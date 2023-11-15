@@ -71,7 +71,7 @@ final class LoginViewController: ViewController {
     
     private func observeClosures() {
         loginView.loginHandler = { [weak self] email, password in
-            
+            self?.moveTo(.relaunchHome)
         }
         footerView.actionHandler = { [weak self] in
             self?.moveTo(.replaceRegister)

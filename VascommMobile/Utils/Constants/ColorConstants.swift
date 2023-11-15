@@ -15,6 +15,7 @@ extension UIColor {
     static let disabled = UIColor(hex: "#BEBEBE")
     static let secondary = UIColor(hex: "#00D9D5")
     static let n30 = UIColor(hex: "#EBEDF7")
+    static let orange1 = UIColor(hex: "#FF7200")
 }
 
 extension UIColor {

@@ -71,6 +71,13 @@ final class TextField: UIView {
         }
     }
     
+    var leftView: UIView? {
+        didSet {
+            textField.leftView = leftView
+            textField.leftViewMode = .always
+        }
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         configureUI()
@@ -115,6 +122,28 @@ final class TextField: UIView {
     
     @objc private func tapRightButton() {
         rightButtonHandler?()
+    }
+    
+}
+
+extension TextField {
+    
+    func initSearchTextField() {
+        let imageView = UIImageView(image: .icSearch)
+        imageView.contentMode = .scaleAspectFit
+        imageView.snp.makeConstraints {
+            $0.width.equalTo(40)
+        }
+        rightView = imageView
+        placeholder = "Search"
+        textField.borderStyle = .none
+        textField.backgroundColor = .white
+        textField.layer.cornerRadius = 20
+        let space = UIView()
+        space.snp.makeConstraints {
+            $0.width.equalTo(20)
+        }
+        leftView = space
     }
     
 }

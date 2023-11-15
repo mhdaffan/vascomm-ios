@@ -9,6 +9,9 @@ import UIKit
 
 extension UIImage {
     
+    static let icStar = UIImage(named: "ic_star")
+    static let icFilter = UIImage(named: "ic_filter")
+    static let icSearch = UIImage(named: "ic_search")
     static let icEyeOn = UIImage(named: "ic_eye_on")
     static let icEyeOff = UIImage(named: "ic_eye_off")
     static let icCCircleOutline = UIImage(named: "ic_c_circle_outline")
@@ -28,5 +31,8 @@ extension UIImage {
     static let bgHealth = UIImage(named: "bg_health")
     static let bgTrack = UIImage(named: "bg_track")
     static let bgVaccine = UIImage(named: "bg_vaccine")
+    static let bgMachine = UIImage(named: "bg_machine")
+    static let bgLocation = UIImage(named: "bg_location")
+    static let bgLocation2 = UIImage(named: "bg_location2")
     
 }

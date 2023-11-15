@@ -10,6 +10,7 @@ import UIKit
 enum ScreenName {
     case replaceRegister
     case replaceLogin
+    case relaunchHome
 }
 
 extension UIViewController {
@@ -20,6 +21,9 @@ extension UIViewController {
             navigationController?.replace(to: RegisterViewController.build())
         case .replaceLogin:
             navigationController?.replace(to: LoginViewController.build())
+        case .relaunchHome:
+            let nvc = UINavigationController(rootViewController: HomeViewController.build())
+            UIWindow.key?.set(rootViewController: nvc)
         }
     }
     
