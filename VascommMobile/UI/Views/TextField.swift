@@ -15,7 +15,7 @@ final class TextField: UIView {
         $0.font = .gilroySemiBold(16)
     }
     private let textField = UITextField().then {
-        $0.addShadow()
+        $0.addShadow(shadowOpacity: 0.1)
         $0.borderStyle = .roundedRect
         $0.layer.cornerRadius = 8
         $0.textColor = .title

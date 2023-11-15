@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  RegisterViewController.swift
 //  VascommMobile
 //
 //  Created by Muhammad Affan on 15/11/23.
@@ -8,9 +8,9 @@
 import UIKit
 import SnapKit
 
-final class LoginViewController: ViewController {
+final class RegisterViewController: ViewController {
     
-    private let viewModel: LoginViewModel
+    private let viewModel: RegisterViewModel
     private let scrollView = UIScrollView().then {
         $0.translatesAutoresizingMaskIntoConstraints = false
     }
@@ -19,12 +19,12 @@ final class LoginViewController: ViewController {
         $0.axis = .vertical
     }
     private let headerView = WelcomeHeaderView()
-    private let loginView = LoginView()
+    private let registerView = RegisterView()
     private let footerView = WelcomeFooterView().then {
-        $0.updateUI(title: "Belum punya akun ?", cta: "Daftar sekarang")
+        $0.updateUI(title: "Sudah punya akun ?", cta: "Login sekarang")
     }
     
-    init(viewModel: LoginViewModel) {
+    init(viewModel: RegisterViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
@@ -66,15 +66,15 @@ final class LoginViewController: ViewController {
             $0.edges.equalToSuperview()
             $0.width.equalTo(self.view)
         }
-        stackView.addArrangedSubviews(headerView, loginView, footerView)
+        stackView.addArrangedSubviews(headerView, registerView, footerView)
     }
     
     private func observeClosures() {
-        loginView.loginHandler = { [weak self] email, password in
+        registerView.registerHandler = { [weak self] register in
             
         }
         footerView.actionHandler = { [weak self] in
-            self?.moveTo(.replaceRegister)
+            self?.moveTo(.replaceLogin)
         }
     }
     
@@ -84,11 +84,11 @@ final class LoginViewController: ViewController {
     
 }
 
-extension LoginViewController {
+extension RegisterViewController {
     
-    static func build() -> LoginViewController {
-        let viewModel = LoginViewModel()
-        let viewController = LoginViewController(viewModel: viewModel)
+    static func build() -> RegisterViewController {
+        let viewModel = RegisterViewModel()
+        let viewController = RegisterViewController(viewModel: viewModel)
         
         return viewController
     }

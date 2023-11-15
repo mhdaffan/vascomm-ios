@@ -39,6 +39,11 @@
 		361E72142B04971A00F78E56 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72132B04971A00F78E56 /* TextField.swift */; };
 		361E72162B049C3D00F78E56 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 361E72152B049C3C00F78E56 /* Gilroy-SemiBold.ttf */; };
 		361E72182B04A62C00F78E56 /* ExtensionUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72172B04A62C00F78E56 /* ExtensionUIImage.swift */; };
+		361E721B2B04A6FD00F78E56 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E721A2B04A6FD00F78E56 /* RegisterViewController.swift */; };
+		361E721D2B04A70500F78E56 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E721C2B04A70500F78E56 /* RegisterViewModel.swift */; };
+		361E72202B04A85600F78E56 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E721F2B04A85600F78E56 /* RegisterView.swift */; };
+		361E72232B04A8A800F78E56 /* RegisterRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72222B04A8A800F78E56 /* RegisterRequestModel.swift */; };
+		361E72252B04A9B300F78E56 /* ExtensionUINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72242B04A9B300F78E56 /* ExtensionUINavigationController.swift */; };
 		BB04F93EC2F04AC93A993581 /* Pods_VascommMobile_VascommMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0A582ADD77BC1B5B905FBB /* Pods_VascommMobile_VascommMobileUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +101,11 @@
 		361E72132B04971A00F78E56 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		361E72152B049C3C00F78E56 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
 		361E72172B04A62C00F78E56 /* ExtensionUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIImage.swift; sourceTree = "<group>"; };
+		361E721A2B04A6FD00F78E56 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		361E721C2B04A70500F78E56 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		361E721F2B04A85600F78E56 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		361E72222B04A8A800F78E56 /* RegisterRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequestModel.swift; sourceTree = "<group>"; };
+		361E72242B04A9B300F78E56 /* ExtensionUINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUINavigationController.swift; sourceTree = "<group>"; };
 		6E9EE3A49908F96F76B2D4F7 /* Pods-VascommMobile-VascommMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile-VascommMobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-VascommMobile-VascommMobileUITests/Pods-VascommMobile-VascommMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		97CD41D91D538BF605B4E7CA /* Pods_VascommMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VascommMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D1E1BFDE8A8586F8C60522 /* Pods-VascommMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile.release.xcconfig"; path = "Target Support Files/Pods-VascommMobile/Pods-VascommMobile.release.xcconfig"; sourceTree = "<group>"; };
@@ -253,6 +263,7 @@
 		361E71D92B04862900F78E56 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				361E72212B04A89C00F78E56 /* Request Models */,
 				361E71DA2B04863700F78E56 /* Response Models */,
 			);
 			path = Models;
@@ -296,6 +307,7 @@
 		361E71DE2B0486CE00F78E56 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				361E72192B04A6F200F78E56 /* Register */,
 				361E71ED2B048D9F00F78E56 /* Login */,
 			);
 			path = Screens;
@@ -308,6 +320,7 @@
 				361E72022B0494EE00F78E56 /* ExtensionUIStackView.swift */,
 				361E72042B04950100F78E56 /* ExtensionUIButton.swift */,
 				361E72172B04A62C00F78E56 /* ExtensionUIImage.swift */,
+				361E72242B04A9B300F78E56 /* ExtensionUINavigationController.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -397,6 +410,32 @@
 				361E72112B0496E800F78E56 /* LoginView.swift */,
 			);
 			path = Subviews;
+			sourceTree = "<group>";
+		};
+		361E72192B04A6F200F78E56 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				361E721E2B04A84F00F78E56 /* Subviews */,
+				361E721A2B04A6FD00F78E56 /* RegisterViewController.swift */,
+				361E721C2B04A70500F78E56 /* RegisterViewModel.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		361E721E2B04A84F00F78E56 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				361E721F2B04A85600F78E56 /* RegisterView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		361E72212B04A89C00F78E56 /* Request Models */ = {
+			isa = PBXGroup;
+			children = (
+				361E72222B04A8A800F78E56 /* RegisterRequestModel.swift */,
+			);
+			path = "Request Models";
 			sourceTree = "<group>";
 		};
 		4044AF5EE020CB7BD504F4E8 /* Pods */ = {
@@ -672,15 +711,20 @@
 				361E72072B04952400F78E56 /* ColorConstants.swift in Sources */,
 				361E72052B04950100F78E56 /* ExtensionUIButton.swift in Sources */,
 				361E71E62B04879F00F78E56 /* Router.swift in Sources */,
+				361E72232B04A8A800F78E56 /* RegisterRequestModel.swift in Sources */,
 				361E720B2B0495D100F78E56 /* LoginViewModel.swift in Sources */,
 				361E71FF2B04935B00F78E56 /* FontConstants.swift in Sources */,
 				361E720F2B0496CB00F78E56 /* WelcomeFooterView.swift in Sources */,
 				361E720D2B04969E00F78E56 /* WelcomeHeaderView.swift in Sources */,
 				361E72122B0496E800F78E56 /* LoginView.swift in Sources */,
+				361E72202B04A85600F78E56 /* RegisterView.swift in Sources */,
+				361E721B2B04A6FD00F78E56 /* RegisterViewController.swift in Sources */,
 				361E71A72B04855100F78E56 /* ViewController.swift in Sources */,
+				361E72252B04A9B300F78E56 /* ExtensionUINavigationController.swift in Sources */,
 				361E71A32B04855100F78E56 /* AppDelegate.swift in Sources */,
 				361E72182B04A62C00F78E56 /* ExtensionUIImage.swift in Sources */,
 				361E71A52B04855100F78E56 /* SceneDelegate.swift in Sources */,
+				361E721D2B04A70500F78E56 /* RegisterViewModel.swift in Sources */,
 				361E71FB2B0492FA00F78E56 /* Then.swift in Sources */,
 				361E72142B04971A00F78E56 /* TextField.swift in Sources */,
 				361E72092B0495CA00F78E56 /* LoginViewController.swift in Sources */,
