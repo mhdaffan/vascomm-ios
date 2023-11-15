@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		361E71A32B04855100F78E56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71A22B04855100F78E56 /* AppDelegate.swift */; };
+		361E71A52B04855100F78E56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71A42B04855100F78E56 /* SceneDelegate.swift */; };
+		361E71A72B04855100F78E56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71A62B04855100F78E56 /* ViewController.swift */; };
+		361E71AA2B04855100F78E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361E71A82B04855100F78E56 /* Main.storyboard */; };
+		361E71AC2B04855200F78E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 361E71AB2B04855200F78E56 /* Assets.xcassets */; };
+		361E71AF2B04855200F78E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 361E71AD2B04855200F78E56 /* LaunchScreen.storyboard */; };
+		361E71BA2B04855200F78E56 /* VascommMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71B92B04855200F78E56 /* VascommMobileTests.swift */; };
+		361E71C42B04855200F78E56 /* VascommMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71C32B04855200F78E56 /* VascommMobileUITests.swift */; };
+		361E71C62B04855200F78E56 /* VascommMobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71C52B04855200F78E56 /* VascommMobileUITestsLaunchTests.swift */; };
+		361E71E62B04879F00F78E56 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71E52B04879F00F78E56 /* Router.swift */; };
+		361E71EA2B0487EA00F78E56 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E71E92B0487EA00F78E56 /* BaseViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		361E71B62B04855200F78E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361E71972B04855100F78E56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361E719E2B04855100F78E56;
+			remoteInfo = VascommMobile;
+		};
+		361E71C02B04855200F78E56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 361E71972B04855100F78E56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 361E719E2B04855100F78E56;
+			remoteInfo = VascommMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		361E719F2B04855100F78E56 /* VascommMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VascommMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		361E71A22B04855100F78E56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		361E71A42B04855100F78E56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		361E71A62B04855100F78E56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		361E71A92B04855100F78E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		361E71AB2B04855200F78E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		361E71AE2B04855200F78E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		361E71B02B04855200F78E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		361E71B52B04855200F78E56 /* VascommMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VascommMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		361E71B92B04855200F78E56 /* VascommMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VascommMobileTests.swift; sourceTree = "<group>"; };
+		361E71BF2B04855200F78E56 /* VascommMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VascommMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		361E71C32B04855200F78E56 /* VascommMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VascommMobileUITests.swift; sourceTree = "<group>"; };
+		361E71C52B04855200F78E56 /* VascommMobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VascommMobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		361E71E52B04879F00F78E56 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		361E71E92B0487EA00F78E56 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		361E719C2B04855100F78E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E71B22B04855200F78E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E71BC2B04855200F78E56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		361E71962B04855100F78E56 = {
+			isa = PBXGroup;
+			children = (
+				361E71A12B04855100F78E56 /* VascommMobile */,
+				361E71B82B04855200F78E56 /* VascommMobileTests */,
+				361E71C22B04855200F78E56 /* VascommMobileUITests */,
+				361E71A02B04855100F78E56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		361E71A02B04855100F78E56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				361E719F2B04855100F78E56 /* VascommMobile.app */,
+				361E71B52B04855200F78E56 /* VascommMobileTests.xctest */,
+				361E71BF2B04855200F78E56 /* VascommMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		361E71A12B04855100F78E56 /* VascommMobile */ = {
+			isa = PBXGroup;
+			children = (
+				361E71E42B04879400F78E56 /* Router */,
+				361E71DD2B0486B000F78E56 /* Base */,
+				361E71D22B0485CB00F78E56 /* Application */,
+				361E71D32B0485E500F78E56 /* UI */,
+				361E71D52B0485FA00F78E56 /* Repositories */,
+				361E71D42B0485F200F78E56 /* UseCases */,
+				361E71D62B04860700F78E56 /* Network */,
+				361E71E32B04870500F78E56 /* Persistents */,
+				361E71D92B04862900F78E56 /* Models */,
+				361E71D72B04861000F78E56 /* DI */,
+				361E71D82B04861600F78E56 /* Utils */,
+				361E71DB2B04864D00F78E56 /* Resources */,
+			);
+			path = VascommMobile;
+			sourceTree = "<group>";
+		};
+		361E71B82B04855200F78E56 /* VascommMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				361E71B92B04855200F78E56 /* VascommMobileTests.swift */,
+			);
+			path = VascommMobileTests;
+			sourceTree = "<group>";
+		};
+		361E71C22B04855200F78E56 /* VascommMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				361E71C32B04855200F78E56 /* VascommMobileUITests.swift */,
+				361E71C52B04855200F78E56 /* VascommMobileUITestsLaunchTests.swift */,
+			);
+			path = VascommMobileUITests;
+			sourceTree = "<group>";
+		};
+		361E71D22B0485CB00F78E56 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				361E71A22B04855100F78E56 /* AppDelegate.swift */,
+				361E71A42B04855100F78E56 /* SceneDelegate.swift */,
+				361E71A82B04855100F78E56 /* Main.storyboard */,
+				361E71AD2B04855200F78E56 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		361E71D32B0485E500F78E56 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				361E71DE2B0486CE00F78E56 /* Screens */,
+				361E71EB2B0487FE00F78E56 /* Views */,
+				361E71EC2B04880500F78E56 /* Cells */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		361E71D42B0485F200F78E56 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		361E71D52B0485FA00F78E56 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		361E71D62B04860700F78E56 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		361E71D72B04861000F78E56 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		361E71D82B04861600F78E56 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				361E71E22B0486F100F78E56 /* Vendor */,
+				361E71E12B0486EA00F78E56 /* Constants */,
+				361E71E02B0486E200F78E56 /* Extentions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		361E71D92B04862900F78E56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				361E71DA2B04863700F78E56 /* Response Models */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		361E71DA2B04863700F78E56 /* Response Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Response Models";
+			sourceTree = "<group>";
+		};
+		361E71DB2B04864D00F78E56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				361E71DC2B04868000F78E56 /* Fonts */,
+				361E71AB2B04855200F78E56 /* Assets.xcassets */,
+				361E71B02B04855200F78E56 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		361E71DC2B04868000F78E56 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		361E71DD2B0486B000F78E56 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				361E71A62B04855100F78E56 /* ViewController.swift */,
+				361E71E92B0487EA00F78E56 /* BaseViewModel.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		361E71DE2B0486CE00F78E56 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		361E71E02B0486E200F78E56 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		361E71E12B0486EA00F78E56 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		361E71E22B0486F100F78E56 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		361E71E32B04870500F78E56 /* Persistents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistents;
+			sourceTree = "<group>";
+		};
+		361E71E42B04879400F78E56 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				361E71E52B04879F00F78E56 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		361E71EB2B0487FE00F78E56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		361E71EC2B04880500F78E56 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		361E719E2B04855100F78E56 /* VascommMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361E71C92B04855200F78E56 /* Build configuration list for PBXNativeTarget "VascommMobile" */;
+			buildPhases = (
+				361E719B2B04855100F78E56 /* Sources */,
+				361E719C2B04855100F78E56 /* Frameworks */,
+				361E719D2B04855100F78E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VascommMobile;
+			productName = VascommMobile;
+			productReference = 361E719F2B04855100F78E56 /* VascommMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		361E71B42B04855200F78E56 /* VascommMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361E71CC2B04855200F78E56 /* Build configuration list for PBXNativeTarget "VascommMobileTests" */;
+			buildPhases = (
+				361E71B12B04855200F78E56 /* Sources */,
+				361E71B22B04855200F78E56 /* Frameworks */,
+				361E71B32B04855200F78E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361E71B72B04855200F78E56 /* PBXTargetDependency */,
+			);
+			name = VascommMobileTests;
+			productName = VascommMobileTests;
+			productReference = 361E71B52B04855200F78E56 /* VascommMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		361E71BE2B04855200F78E56 /* VascommMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361E71CF2B04855200F78E56 /* Build configuration list for PBXNativeTarget "VascommMobileUITests" */;
+			buildPhases = (
+				361E71BB2B04855200F78E56 /* Sources */,
+				361E71BC2B04855200F78E56 /* Frameworks */,
+				361E71BD2B04855200F78E56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				361E71C12B04855200F78E56 /* PBXTargetDependency */,
+			);
+			name = VascommMobileUITests;
+			productName = VascommMobileUITests;
+			productReference = 361E71BF2B04855200F78E56 /* VascommMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		361E71972B04855100F78E56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					361E719E2B04855100F78E56 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					361E71B42B04855200F78E56 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 361E719E2B04855100F78E56;
+					};
+					361E71BE2B04855200F78E56 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 361E719E2B04855100F78E56;
+					};
+				};
+			};
+			buildConfigurationList = 361E719A2B04855100F78E56 /* Build configuration list for PBXProject "VascommMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 361E71962B04855100F78E56;
+			productRefGroup = 361E71A02B04855100F78E56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				361E719E2B04855100F78E56 /* VascommMobile */,
+				361E71B42B04855200F78E56 /* VascommMobileTests */,
+				361E71BE2B04855200F78E56 /* VascommMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		361E719D2B04855100F78E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E71AF2B04855200F78E56 /* LaunchScreen.storyboard in Resources */,
+				361E71AC2B04855200F78E56 /* Assets.xcassets in Resources */,
+				361E71AA2B04855100F78E56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E71B32B04855200F78E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E71BD2B04855200F78E56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		361E719B2B04855100F78E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E71E62B04879F00F78E56 /* Router.swift in Sources */,
+				361E71A72B04855100F78E56 /* ViewController.swift in Sources */,
+				361E71A32B04855100F78E56 /* AppDelegate.swift in Sources */,
+				361E71A52B04855100F78E56 /* SceneDelegate.swift in Sources */,
+				361E71EA2B0487EA00F78E56 /* BaseViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E71B12B04855200F78E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E71BA2B04855200F78E56 /* VascommMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361E71BB2B04855200F78E56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				361E71C42B04855200F78E56 /* VascommMobileUITests.swift in Sources */,
+				361E71C62B04855200F78E56 /* VascommMobileUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		361E71B72B04855200F78E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361E719E2B04855100F78E56 /* VascommMobile */;
+			targetProxy = 361E71B62B04855200F78E56 /* PBXContainerItemProxy */;
+		};
+		361E71C12B04855200F78E56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 361E719E2B04855100F78E56 /* VascommMobile */;
+			targetProxy = 361E71C02B04855200F78E56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		361E71A82B04855100F78E56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361E71A92B04855100F78E56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		361E71AD2B04855200F78E56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				361E71AE2B04855200F78E56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		361E71C72B04855200F78E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		361E71C82B04855200F78E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		361E71CA2B04855200F78E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VascommMobile/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vascomm.VascommMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		361E71CB2B04855200F78E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VascommMobile/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vascomm.VascommMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		361E71CD2B04855200F78E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vascomm.VascommMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VascommMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VascommMobile";
+			};
+			name = Debug;
+		};
+		361E71CE2B04855200F78E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vascomm.VascommMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VascommMobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VascommMobile";
+			};
+			name = Release;
+		};
+		361E71D02B04855200F78E56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vascomm.VascommMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VascommMobile;
+			};
+			name = Debug;
+		};
+		361E71D12B04855200F78E56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vascomm.VascommMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VascommMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		361E719A2B04855100F78E56 /* Build configuration list for PBXProject "VascommMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E71C72B04855200F78E56 /* Debug */,
+				361E71C82B04855200F78E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361E71C92B04855200F78E56 /* Build configuration list for PBXNativeTarget "VascommMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E71CA2B04855200F78E56 /* Debug */,
+				361E71CB2B04855200F78E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361E71CC2B04855200F78E56 /* Build configuration list for PBXNativeTarget "VascommMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E71CD2B04855200F78E56 /* Debug */,
+				361E71CE2B04855200F78E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361E71CF2B04855200F78E56 /* Build configuration list for PBXNativeTarget "VascommMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361E71D02B04855200F78E56 /* Debug */,
+				361E71D12B04855200F78E56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 361E71972B04855100F78E56 /* Project object */;
+}
