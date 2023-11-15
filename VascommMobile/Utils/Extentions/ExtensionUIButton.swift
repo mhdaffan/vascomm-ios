@@ -13,7 +13,7 @@ extension UIButton {
     func primaryStyle(text: String, icon: UIImage?, textSize: Double = 16) {
         backgroundColor = .title
         setTitleColor(.white, for: .normal)
-        titleLabel?.font = .gilroyLight(textSize)
+        titleLabel?.font = .gilroySemiBold(textSize)
         setTitle(text, for: .normal)
         layer.cornerRadius = 8
         if let icon = icon {
@@ -24,7 +24,7 @@ extension UIButton {
     func secondaryStyle(text: String, icon: UIImage? = nil, textSize: Double = 16) {
         backgroundColor = .white
         setTitleColor(.title, for: .normal)
-        titleLabel?.font = .gilroyLight(textSize)
+        titleLabel?.font = .gilroySemiBold(textSize)
         setTitle(text, for: .normal)
         if let icon = icon {
             addRightIcon(icon: icon)

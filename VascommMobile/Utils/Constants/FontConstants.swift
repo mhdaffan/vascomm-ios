@@ -21,6 +21,10 @@ extension UIFont {
         return getFont(name: "Gilroy-Light", size: size)
     }
     
+    static func gilroySemiBold(_ size: Double) -> UIFont {
+        return getFont(name: "Gilroy-SemiBold", size: size)
+    }
+    
     static func gilroyExtraBold(_ size: Double) -> UIFont {
         return getFont(name: "Gilroy-ExtraBold", size: size)
     }
@@ -29,7 +33,7 @@ extension UIFont {
         return getFont(name: "Proxima-Nova-Semibold", size: size)
     }
     
-    static func proximaNovaSemiRegular(_ size: Double) -> UIFont {
+    static func proximaNovaRegular(_ size: Double) -> UIFont {
         return getFont(name: "Proxima-Nova-Regular", size: size)
     }
     

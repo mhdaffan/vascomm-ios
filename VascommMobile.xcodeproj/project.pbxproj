@@ -31,6 +31,14 @@
 		361E72032B0494EE00F78E56 /* ExtensionUIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72022B0494EE00F78E56 /* ExtensionUIStackView.swift */; };
 		361E72052B04950100F78E56 /* ExtensionUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72042B04950100F78E56 /* ExtensionUIButton.swift */; };
 		361E72072B04952400F78E56 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72062B04952400F78E56 /* ColorConstants.swift */; };
+		361E72092B0495CA00F78E56 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72082B0495CA00F78E56 /* LoginViewController.swift */; };
+		361E720B2B0495D100F78E56 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E720A2B0495D100F78E56 /* LoginViewModel.swift */; };
+		361E720D2B04969E00F78E56 /* WelcomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E720C2B04969E00F78E56 /* WelcomeHeaderView.swift */; };
+		361E720F2B0496CB00F78E56 /* WelcomeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E720E2B0496CB00F78E56 /* WelcomeFooterView.swift */; };
+		361E72122B0496E800F78E56 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72112B0496E800F78E56 /* LoginView.swift */; };
+		361E72142B04971A00F78E56 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72132B04971A00F78E56 /* TextField.swift */; };
+		361E72162B049C3D00F78E56 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 361E72152B049C3C00F78E56 /* Gilroy-SemiBold.ttf */; };
+		361E72182B04A62C00F78E56 /* ExtensionUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72172B04A62C00F78E56 /* ExtensionUIImage.swift */; };
 		BB04F93EC2F04AC93A993581 /* Pods_VascommMobile_VascommMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0A582ADD77BC1B5B905FBB /* Pods_VascommMobile_VascommMobileUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +88,14 @@
 		361E72022B0494EE00F78E56 /* ExtensionUIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIStackView.swift; sourceTree = "<group>"; };
 		361E72042B04950100F78E56 /* ExtensionUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIButton.swift; sourceTree = "<group>"; };
 		361E72062B04952400F78E56 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		361E72082B0495CA00F78E56 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		361E720A2B0495D100F78E56 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		361E720C2B04969E00F78E56 /* WelcomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeHeaderView.swift; sourceTree = "<group>"; };
+		361E720E2B0496CB00F78E56 /* WelcomeFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeFooterView.swift; sourceTree = "<group>"; };
+		361E72112B0496E800F78E56 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		361E72132B04971A00F78E56 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		361E72152B049C3C00F78E56 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		361E72172B04A62C00F78E56 /* ExtensionUIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIImage.swift; sourceTree = "<group>"; };
 		6E9EE3A49908F96F76B2D4F7 /* Pods-VascommMobile-VascommMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile-VascommMobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-VascommMobile-VascommMobileUITests/Pods-VascommMobile-VascommMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		97CD41D91D538BF605B4E7CA /* Pods_VascommMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VascommMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D1E1BFDE8A8586F8C60522 /* Pods-VascommMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile.release.xcconfig"; path = "Target Support Files/Pods-VascommMobile/Pods-VascommMobile.release.xcconfig"; sourceTree = "<group>"; };
@@ -291,6 +307,7 @@
 				361E72002B0494DD00F78E56 /* ExtensionUIView.swift */,
 				361E72022B0494EE00F78E56 /* ExtensionUIStackView.swift */,
 				361E72042B04950100F78E56 /* ExtensionUIButton.swift */,
+				361E72172B04A62C00F78E56 /* ExtensionUIImage.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -331,6 +348,9 @@
 		361E71EB2B0487FE00F78E56 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				361E72132B04971A00F78E56 /* TextField.swift */,
+				361E720C2B04969E00F78E56 /* WelcomeHeaderView.swift */,
+				361E720E2B0496CB00F78E56 /* WelcomeFooterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -345,6 +365,9 @@
 		361E71ED2B048D9F00F78E56 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				361E72102B0496E000F78E56 /* Subviews */,
+				361E72082B0495CA00F78E56 /* LoginViewController.swift */,
+				361E720A2B0495D100F78E56 /* LoginViewModel.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -352,6 +375,7 @@
 		361E71F02B048EAC00F78E56 /* Gilroy */ = {
 			isa = PBXGroup;
 			children = (
+				361E72152B049C3C00F78E56 /* Gilroy-SemiBold.ttf */,
 				361E71F12B048EC700F78E56 /* Gilroy-ExtraBold.otf */,
 				361E71F22B048EC700F78E56 /* Gilroy-Light.otf */,
 			);
@@ -365,6 +389,14 @@
 				361E71F72B04923F00F78E56 /* Proxima-Nova-Semibold.otf */,
 			);
 			path = "Proxima Nova";
+			sourceTree = "<group>";
+		};
+		361E72102B0496E000F78E56 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				361E72112B0496E800F78E56 /* LoginView.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 		4044AF5EE020CB7BD504F4E8 /* Pods */ = {
@@ -500,6 +532,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				361E71AF2B04855200F78E56 /* LaunchScreen.storyboard in Resources */,
+				361E72162B049C3D00F78E56 /* Gilroy-SemiBold.ttf in Resources */,
 				361E71AC2B04855200F78E56 /* Assets.xcassets in Resources */,
 				361E71F92B04923F00F78E56 /* Proxima-Nova-Semibold.otf in Resources */,
 				361E71AA2B04855100F78E56 /* Main.storyboard in Resources */,
@@ -639,11 +672,18 @@
 				361E72072B04952400F78E56 /* ColorConstants.swift in Sources */,
 				361E72052B04950100F78E56 /* ExtensionUIButton.swift in Sources */,
 				361E71E62B04879F00F78E56 /* Router.swift in Sources */,
+				361E720B2B0495D100F78E56 /* LoginViewModel.swift in Sources */,
 				361E71FF2B04935B00F78E56 /* FontConstants.swift in Sources */,
+				361E720F2B0496CB00F78E56 /* WelcomeFooterView.swift in Sources */,
+				361E720D2B04969E00F78E56 /* WelcomeHeaderView.swift in Sources */,
+				361E72122B0496E800F78E56 /* LoginView.swift in Sources */,
 				361E71A72B04855100F78E56 /* ViewController.swift in Sources */,
 				361E71A32B04855100F78E56 /* AppDelegate.swift in Sources */,
+				361E72182B04A62C00F78E56 /* ExtensionUIImage.swift in Sources */,
 				361E71A52B04855100F78E56 /* SceneDelegate.swift in Sources */,
 				361E71FB2B0492FA00F78E56 /* Then.swift in Sources */,
+				361E72142B04971A00F78E56 /* TextField.swift in Sources */,
+				361E72092B0495CA00F78E56 /* LoginViewController.swift in Sources */,
 				361E71EA2B0487EA00F78E56 /* BaseViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,6 +9,8 @@ import UIKit
 
 extension UIImage {
     
+    static let icEyeOn = UIImage(named: "ic_eye_on")
+    static let icEyeOff = UIImage(named: "ic_eye_off")
     static let icCCircleOutline = UIImage(named: "ic_c_circle_outline")
     static let icSave = UIImage(named: "ic_save")
     static let icArrowRight = UIImage(named: "ic_arrow_right")
