@@ -73,7 +73,7 @@ final class MoreViewController: ViewController {
             self?.moveTo(.relaunchLogin)
         }
         contentView.profileHandler = { [weak self] in
-            
+            self?.moveTo(.profile)
         }
         contentView.settingHandler = { [weak self] in
             

@@ -13,6 +13,7 @@ enum ScreenName {
     case relaunchHome
     case relaunchLogin
     case moreMenu
+    case profile
 }
 
 extension UIViewController {
@@ -33,6 +34,8 @@ extension UIViewController {
             let nvc = UINavigationController(rootViewController: MoreViewController.build())
             nvc.modalPresentationStyle = .custom
             present(nvc, animated: true)
+        case .profile:
+            navigationController?.pushViewController(ProfileViewController.build(), animated: true)
         }
     }
     

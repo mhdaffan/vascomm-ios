@@ -80,6 +80,11 @@
 		361E72782B0535BD00F78E56 /* UseCaseInjectionKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72772B0535BD00F78E56 /* UseCaseInjectionKey.swift */; };
 		361E727A2B05362E00F78E56 /* ExtensionObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72792B05362E00F78E56 /* ExtensionObservable.swift */; };
 		361E727C2B0536FD00F78E56 /* ExtensionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E727B2B0536FD00F78E56 /* ExtensionError.swift */; };
+		361E727F2B05D7C400F78E56 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E727E2B05D7C400F78E56 /* ProfileViewController.swift */; };
+		361E72812B05D7E500F78E56 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72802B05D7E500F78E56 /* ProfileViewModel.swift */; };
+		361E72842B05D7F800F78E56 /* ProfileFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72832B05D7F800F78E56 /* ProfileFormView.swift */; };
+		361E72862B05D80500F78E56 /* ProfileFormHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72852B05D80500F78E56 /* ProfileFormHeaderView.swift */; };
+		361E72882B05D81600F78E56 /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361E72872B05D81600F78E56 /* ProfileCardView.swift */; };
 		BB04F93EC2F04AC93A993581 /* Pods_VascommMobile_VascommMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0A582ADD77BC1B5B905FBB /* Pods_VascommMobile_VascommMobileUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -178,6 +183,11 @@
 		361E72772B0535BD00F78E56 /* UseCaseInjectionKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseInjectionKey.swift; sourceTree = "<group>"; };
 		361E72792B05362E00F78E56 /* ExtensionObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionObservable.swift; sourceTree = "<group>"; };
 		361E727B2B0536FD00F78E56 /* ExtensionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionError.swift; sourceTree = "<group>"; };
+		361E727E2B05D7C400F78E56 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		361E72802B05D7E500F78E56 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		361E72832B05D7F800F78E56 /* ProfileFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFormView.swift; sourceTree = "<group>"; };
+		361E72852B05D80500F78E56 /* ProfileFormHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFormHeaderView.swift; sourceTree = "<group>"; };
+		361E72872B05D81600F78E56 /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
 		6E9EE3A49908F96F76B2D4F7 /* Pods-VascommMobile-VascommMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile-VascommMobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-VascommMobile-VascommMobileUITests/Pods-VascommMobile-VascommMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		97CD41D91D538BF605B4E7CA /* Pods_VascommMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VascommMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D1E1BFDE8A8586F8C60522 /* Pods-VascommMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VascommMobile.release.xcconfig"; path = "Target Support Files/Pods-VascommMobile/Pods-VascommMobile.release.xcconfig"; sourceTree = "<group>"; };
@@ -396,6 +406,7 @@
 		361E71DE2B0486CE00F78E56 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				361E727D2B05D7BD00F78E56 /* Profile */,
 				361E724E2B051E6500F78E56 /* More */,
 				361E72262B04AD0600F78E56 /* Home */,
 				361E72192B04A6F200F78E56 /* Register */,
@@ -584,6 +595,26 @@
 				361E72692B05351800F78E56 /* AuthEndpoint.swift */,
 			);
 			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		361E727D2B05D7BD00F78E56 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				361E72822B05D7EE00F78E56 /* Subviews */,
+				361E727E2B05D7C400F78E56 /* ProfileViewController.swift */,
+				361E72802B05D7E500F78E56 /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		361E72822B05D7EE00F78E56 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				361E72832B05D7F800F78E56 /* ProfileFormView.swift */,
+				361E72852B05D80500F78E56 /* ProfileFormHeaderView.swift */,
+				361E72872B05D81600F78E56 /* ProfileCardView.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 		4044AF5EE020CB7BD504F4E8 /* Pods */ = {
@@ -857,6 +888,7 @@
 				361E72312B04AD7300F78E56 /* TrackCardView.swift in Sources */,
 				361E72432B04CF1300F78E56 /* HomeProductListCell.swift in Sources */,
 				361E723D2B04C74500F78E56 /* HomeCardCell.swift in Sources */,
+				361E72842B05D7F800F78E56 /* ProfileFormView.swift in Sources */,
 				361E725F2B05340C00F78E56 /* NetworkConfig.swift in Sources */,
 				361E72012B0494DD00F78E56 /* ExtensionUIView.swift in Sources */,
 				361E72032B0494EE00F78E56 /* ExtensionUIStackView.swift in Sources */,
@@ -865,6 +897,7 @@
 				361E726A2B05351800F78E56 /* AuthEndpoint.swift in Sources */,
 				361E72542B051ED100F78E56 /* UserModel.swift in Sources */,
 				361E72072B04952400F78E56 /* ColorConstants.swift in Sources */,
+				361E72812B05D7E500F78E56 /* ProfileViewModel.swift in Sources */,
 				361E726C2B05353100F78E56 /* Token.swift in Sources */,
 				361E72052B04950100F78E56 /* ExtensionUIButton.swift in Sources */,
 				361E71E62B04879F00F78E56 /* Router.swift in Sources */,
@@ -874,6 +907,7 @@
 				361E71FF2B04935B00F78E56 /* FontConstants.swift in Sources */,
 				361E72522B051E8000F78E56 /* MoreViewModel.swift in Sources */,
 				361E72412B04CC3B00F78E56 /* HomeProductItemCell.swift in Sources */,
+				361E727F2B05D7C400F78E56 /* ProfileViewController.swift in Sources */,
 				361E722F2B04AD6300F78E56 /* SpecialServiceCardView.swift in Sources */,
 				361E720F2B0496CB00F78E56 /* WelcomeFooterView.swift in Sources */,
 				361E725B2B05259500F78E56 /* ExtensionUIImageView.swift in Sources */,
@@ -890,6 +924,7 @@
 				361E727A2B05362E00F78E56 /* ExtensionObservable.swift in Sources */,
 				361E722D2B04AD5500F78E56 /* HealthSolutionCardView.swift in Sources */,
 				361E72672B0534DC00F78E56 /* ErrorModel.swift in Sources */,
+				361E72882B05D81600F78E56 /* ProfileCardView.swift in Sources */,
 				361E72332B04AE6A00F78E56 /* UIWindowTransition.swift in Sources */,
 				361E71A72B04855100F78E56 /* ViewController.swift in Sources */,
 				361E72492B04D4CD00F78E56 /* HomeServiceItemCell.swift in Sources */,
@@ -913,6 +948,7 @@
 				361E724B2B04D9CF00F78E56 /* HomeServiceHeaderCell.swift in Sources */,
 				361E727C2B0536FD00F78E56 /* ExtensionError.swift in Sources */,
 				361E71EA2B0487EA00F78E56 /* BaseViewModel.swift in Sources */,
+				361E72862B05D80500F78E56 /* ProfileFormHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
